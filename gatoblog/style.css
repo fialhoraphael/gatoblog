@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+:root {
+    font-size: 62,5%;
+}
+.app {
+max-width: 43rem;
+
+margin: auto;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    padding: 1.2rem 2.8rem;
+    gap: 2.8rem;
+    
+
+    background-color: #065E7C;
+}
+.logomarca {
+    display: grid;
+    place-items: center;
+    background-color: #F4FCFF;
+    border-radius: 999px;
+    object-fit: cover;
+    width: 4rem;
+    height: 4rem;
+    
+}
+.logomarca img {
+    width: 2.4rem;
+    height: 2.4rem;
+    
+}
+
+.input-wrapper input {
+    width: 23rem;
+    height: 4rem;
+    background-color: #387E96;
+    padding: 1.6rem ;
+    padding-top: 1.4 1.2rem;
+    border-radius: 8px;
+    
+    border-style: none;
+    
+   
+}
+.input-wrapper ::placeholder {
+    display: flex;
+    color: #ffffff;
+    font-size: 1.6rem;
+    align-items: center;
+    position: relative;
+    top: .3rem;
+}
+
+
+.avatar {
+    
+    
+    width: 4.2rem;
+    height: 4.2rem;
+    border-radius: 50%;
+    object-fit: cover;
+    
+    
+}
+main {
+    padding: 2.2rem;
+}
+
+.banner {
+    width: 100%;
+}
+
+p {
+    font-size: 16px;
+font-weight: 400;
+}
+
+h1{
+    margin-top: 1rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.action {
+    margin-top: .8rem;
+
+}
+
+.action img {
+    height: 1.6rem;
+    width: 1.6rem;
+    
+    border-radius: 50%;
+    
+    
+    
+    
+}
+
+
+.action button {
+      
+margin-right: 1.2rem;
+
+    height: 4rem;
+    width: 4rem;
+    padding: 1.2rem;
+    
+    border-radius: 50%;
+    border-style: none;
+    background-color: #065E7C;
+}
+
+p {
+    margin-top: 3.2rem;
+    font-size: 1.6rem;
+}
+
+
+.sidebar {
+    padding: 2.2rem;
+
+}
+
+.sidebar h1 {
+    margin-bottom: 3.2rem;
+
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.item {
+    display: flex;
+    margin-bottom: 3.2rem;
+    gap: 3.2rem;
+}
+
+.item img{
+    
+    width: 16rem;
+    height: 9rem;
+    
+}
+
+.details {
+    width: 21.5rem;
+    align-items: center;
+}
+
+.details h2 {
+    margin-bottom: -2.5rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.details p {
+    font-size: 1.4rem;
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    padding-bottom: 3rem;
+    
+    background-color: #065E7C;
+
+    
+}
+footer p {
+ color: #fff;
+}
+
+@media (min-width: 1440px) {
+   .app {
+    max-width: 144rem;
+    
+    
+
+    
+   }
+   header {
+    
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr 88% 1fr);
+    
+
+   }
+   .input-wrapper input {
+    width: 100%;
+   }
+   .meio {
+    max-width: 144rem;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr 1fr);
+    padding: 0 1rem;
+   }
+
+   main {
+    width: 80rem;
+   }
+   .banner{
+    border-radius: 8px;
+   }
+
+   
+
+
+
+   
+}
